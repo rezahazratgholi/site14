@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*==================header=======================*/
+header{
+    margin: 0 auto;
+    width: 1370px;
+    background-color: #343436;
+}
+.bdiv{
+    overflow: auto;
+    width: 965px;
+    margin: 0 auto;
+}
+.hdiv{
+    width: 300px;
+    background-color: #f3f3ee;
+    float: left;
+    border-top: solid #f3f3ee 115px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+header h4{
+    color: #cf9379;
+}
+header h1{
+    padding-bottom: 18px;
+    color: #50453b;
+}
+.uldiv{
+    
+}
+header ul{
+    display: inline-block;
+    float: right;
+    width: 410px;
+    margin-bottom: 40px;
+}
+header ul li{
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    background-color: #414141;
+    margin: 10px 5px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 40px;
+}
+header ul li:hover{
+    background-color: #cf9359;
+}
+.callus{
+    color: #cf9359;
+    float: right;
+    width: 410px;
+    margin-bottom: 30px;
+}
+/*======================main==============*/
+#mainser{
+    
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1370px;
+    background-color: #c2bfae;
+}
+.mainall{
+    overflow: auto;
+    width: 965px;
+    margin: 0 auto;   
+}
+#secser{
+    width: 630px;
+    background-color: #fff;
+    float: left;
+    padding: 20px;
+}
+main #secser p{
+    color: gray;
+    padding: 10px 10px;
+}
+main  #secser h2{
+    text-transform: uppercase;
+    padding: 10px 10px;
+    color: #612623;
+    border-bottom: solid #dadacb 2px;
+}
+main #secser h3{
+    padding: 10px 10px;
+    color: #d09359;
+}
+/*========================aside===========================*/
+aside{
+    width: 300px;
+    background-color: #fff;
+    float: right;
+    clear: right;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: #978e86;
+}
+aside h3{
+    border-bottom: solid #978e86 2px;
+    padding-bottom: 15px;
+}
+.search{
+    color: #d09359;
+    padding: 20px 0;
+}
+aside .search .search1{
+    width: 210px;
+    height: 40px;
+    background-color: #e5e2d3;
+}
+aside .search .search1:focus{
+    background-color: #fff;
+}
+aside .search .search2{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/search.gif);
+}
+aside ul li{
+    list-style-image: url(../images/icon-arrow.png);
+    border-top: solid #978e86 2px;
+    list-style-position: inside;
+    padding: 10px 0;
+}
+.topthing{
+    padding-top: 5px;
+    color: #cf9359;
+    padding-bottom: 15px;
+    width: 140px;
+    float: left;
+}
+.things{
+    color: darkgrey;
+    width: 140px;
+    float: left;
+}
+.allthing{
+    overflow: auto;
+    border-top: solid #978e86 3px;
+    
+}
+.imgpic{
+    float: right;
+    padding-bottom: 20px;
+}
+/*================footer===============*/
+footer{
+    margin: 0 auto;
+    width: 1370px;
+    background-color: #343436;
+    color: #cf9359;
+    line-height: 180px;
+    text-align: center;
+}   
+/*=======================contact section================*/
+#contactsec{
+    
+    width: 630px;
+    background-color: #fff;
+    float: left;
+    padding: 20px;
+}
+#maincon{
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1370px;
+    background-color: #c2bfae;
+}
+.inputcontact{
+    width: 440px;
+    height: 35px;
+    float: right;
+    margin: 20px 0px;
+    background-color: #c2bfae;
+}
+#textareacontact{
+    height: 170px;
+}
+label{
+    display: block;
+    overflow: auto;
+}
+.inputthing{
+    margin: 20px 0;
+    width: 100px;
+    float: left;
+}
+#submitt{
+    
+    margin-left: 150px;
+    width: 90px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: #cf9359;
+    color: #fff;
+    font-size: 10px;
+}
+form{
+    padding-bottom: 40px;
+    border-bottom: solid silver 2px;
+}
+#contactsec h3{
+    color: gray;
+    border-bottom: solid silver 2px;
+    padding-bottom: 20px;
+}
+#contactsec h4{
+    color: #cf9359;
+    padding-top: 20px;
+}
+.inputcontact{
+    border: none;
+}
+.inputcontact:focus{
+    background-color:#fff;
+}

@@ -1,0 +1,30 @@
+#asd3{
+  display: none;
+}
+
+
+/*     Form Styles    */
+label{
+  display: block;
+  margin: 10px 0;
+  overflow: auto;
+}
+section input , textarea{
+    background-color: #e5e2d3;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    float: right;
+  }
+section [type=submit]{
+  width: 100px;
+  float: none;
+  margin-left: 20%;
+  background-color: #cf9359;
+  color: #fff;
+  font-weight: bold;
+}
+section [type=submit]:hover{
+   background-color: #8F653D;
+   cursor: pointer;
+}
